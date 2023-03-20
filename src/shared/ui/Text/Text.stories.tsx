@@ -4,7 +4,6 @@ import { ComponentStory, ComponentMeta } from '@storybook/react';
 import { ThemeDecorator } from 'shared/config/storybook/ThemeDecorator/ThemeDecorator';
 import { Theme } from 'app/providers/ThemeProvider';
 import { Text, TextTheme } from './Text';
-import { Button, ButtonSize, ButtonTheme } from './Button';
 
 export default {
     title: 'shared/Text',
