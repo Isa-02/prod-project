@@ -1,11 +1,8 @@
 import { Reducer } from '@reduxjs/toolkit';
 import { ReduxStoreWithManager, StateSchemaKey } from 'app/providers/StoreProvider/config/StateSchema';
-import { loginReducer } from 'features/AuthByUsername/model/slice/loginSlice';
 import { FC, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useDispatch, useStore } from 'react-redux';
-import { classNames } from 'shared/lib/classNames/classNames';
-import cls from './LoginModal.module.scss';
 
 export type ReducerList = {
   [name in StateSchemaKey]?:Reducer

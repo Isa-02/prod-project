@@ -25,5 +25,14 @@
       "password": "123"
     }
   ],
-  "profile": { "name": "typicode" }
+  "profile": {
+    "first":"Isa",
+    "lastname":"I",
+    "age":"21",
+    "currency":"RUB",
+    "country":"Russia",
+    "city":"Grozny",
+    "username":"admin",
+    "avatar": "https://img.freepik.com/premium-vector/cartoon-young-man-glasses-vector-person-illustration-cute-male-portrait_641602-526.jpg?w=740"
+    }  
 }
