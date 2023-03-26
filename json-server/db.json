@@ -26,13 +26,13 @@
     }
   ],
   "profile": {
-    "first":"Isa",
-    "lastname":"T",
-    "age":"21",
-    "currency":"RUB",
-    "country":"Russia",
-    "city":"Grozny",
-    "username":"admin",
-    "avatar": "https://img.freepik.com/premium-vector/cartoon-young-man-glasses-vector-person-illustration-cute-male-portrait_641602-526.jpg?w=740"
-    }  
+    "first": "Isa",
+    "lastname": "Talipov",
+    "age": "21",
+    "currency": "RUB",
+    "country": "Russia",
+    "city": "Grozny",
+    "username": "admin",
+    "avatar": "https://s0.rbk.ru/v6_top_pics/media/img/8/60/756615119370608.jpg"
+  }
 }
