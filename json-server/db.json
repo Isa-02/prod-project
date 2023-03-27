@@ -28,7 +28,7 @@
   "profile": {
     "first": "Isa",
     "lastname": "Talipov",
-    "age": "21",
+    "age": 21,
     "currency": "RUB",
     "country": "Russia",
     "city": "Grozny",
