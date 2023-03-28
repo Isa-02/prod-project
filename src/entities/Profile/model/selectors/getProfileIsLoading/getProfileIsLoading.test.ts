@@ -7,6 +7,7 @@ describe('getProfileIsLoading.test', () => {
             profile: {
                 isLoading: true,
             },
+
         };
         expect(getProfileIsLoading(state as StateSchema)).toEqual(true);
     });
