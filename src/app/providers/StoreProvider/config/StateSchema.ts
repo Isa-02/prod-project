@@ -21,7 +21,7 @@ export interface StateSchema {
         // Асинхронные редюсеры
         loginForm?: LoginSchema;
         profile?: ProfileSchema;
-        articleDetailds?: ArticleDetailsSchema;
+        articleDetails?: ArticleDetailsSchema;
         }
 
 export type StateSchemaKey = keyof StateSchema;

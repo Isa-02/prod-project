@@ -4,7 +4,12 @@
   " ARTICLE DETAILS": " ARTICLE DETAILS",
   " ARTICLE PAGE": " ARTICLE PAGE",
   "Article Details": "Article Details",
+  "Article Text Block Component": "",
+  "Article TextBlockComponent": "",
+  "ArticleCodeBlockComponent": "ArticleCodeBlockComponent",
   "ArticleDetails": "ArticleDetails",
+  "ArticleImageBlockComponent": "",
+  "ArticleTextBlockComponent": "",
   "ERROR": "ERROR",
   "LOADING": {
     "": {
@@ -50,6 +55,7 @@
   "Имя и фамилия обя": "Имя и фамилия обя",
   "Имя и фамилия обязательны": "Имя и фамилия обязательны",
   "Имя пользователя ": "Имя пользователя ",
+  "Копировать": "",
   "Некоррек": "Некоррек",
   "Некорректный возраст": "Некорректный возраст",
   "Некорректный регион": "Некорректный регион",
