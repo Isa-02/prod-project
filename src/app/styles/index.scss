@@ -5,23 +5,23 @@
 @import "themes/orange.scss";
 
 body {
-    font: var(--font-m);
-    color: var(--primary-color);
+  font: var(--font-m);
+  color: var(--primary-color);
 }
 
 .app {
-    background: var(--bg-color);
-    min-height: 100vh;
+  background: var(--bg-color);
+  min-height: 100vh;
 }
 
 .content-page {
-    display: flex;
+  display: flex;
 }
 
 .page-wrapper {
-    flex-grow: 1;
-    padding: 20px 20px 20px 45px;
-    height: calc(100vh - var(--navbar-height));
-    overflow-y: auto;
-    width: 100%;
+  flex-grow: 1;
+  padding: 20px 20px 20px 45px;
+  height: calc(100vh - var(--navbar-height));
+  overflow-y: auto;
+  flex-shrink: 100;
 }

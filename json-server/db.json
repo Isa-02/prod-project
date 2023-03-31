@@ -19,7 +19,9 @@
       "img": "https://teknotower.com/wp-content/uploads/2020/11/js.png",
       "views": 1022,
       "createdAt": "27.03.2023",
-      "type": ["IT"],
+      "type": [
+        "IT"
+      ],
       "blocks": [
         {
           "id": "1",
@@ -100,16 +102,39 @@
       "text": "some comment 3",
       "articleId": "1",
       "userId": "1"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "asd",
+      "id": "g622sC4"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "asdasdasd",
+      "id": "5ZN0jpJ"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "asd",
+      "id": "9qxBHqy"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "привет",
+      "id": "ZyaVGtR"
     }
   ],
   "users": [
     {
       "id": "1",
-      "username": "1",
-      "password": "1",
+      "username": "admin",
+      "password": "123",
       "role": "ADMIN",
       "avatar": "https://img.freepik.com/premium-vector/cartoon-young-man-glasses-vector-person-illustration-cute-male-portrait_641602-526.jpg?w=740"
-
     },
     {
       "id": "2",
@@ -117,17 +142,30 @@
       "password": "123",
       "role": "USER",
       "avatar": "https://img.freepik.com/premium-vector/cartoon-young-man-glasses-vector-person-illustration-cute-male-portrait_641602-526.jpg?w=740"
-
     }
   ],
-  "profile": {
-    "first": "Isa",
-    "lastname": "Talipov",
-    "age": 21,
-    "currency": "EUR",
-    "country": "Russia",
-    "city": "Grozny",
-    "username": "admin",
-    "avatar": "https://s0.rbk.ru/v6_top_pics/media/img/8/60/756615119370608.jpg"
-  }
+  "profile": [
+    {
+      "id": "1",
+      "first": "Isa",
+      "lastname": "Talipov",
+      "age": 21,
+      "currency": "EUR",
+      "country": "Russia",
+      "city": "Grozny",
+      "username": "admin",
+      "avatar": "https://s0.rbk.ru/v6_top_pics/media/img/8/60/756615119370608.jpg"
+    },
+    {
+      "id": "2",
+      "first": "I",
+      "lastname": "sss",
+      "age": 31,
+      "currency": "EUR",
+      "country": "Russia",
+      "city": "Grozny",
+      "username": "issa",
+      "avatar": "https://img.freepik.com/premium-vector/cartoon-young-man-glasses-vector-person-illustration-cute-male-portrait_641602-526.jpg?w=740"
+    }
+  ]
 }

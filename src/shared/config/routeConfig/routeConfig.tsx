@@ -6,26 +6,25 @@ import { ProfilePage } from 'pages/ProfilePage';
 import ArticlesPage from 'pages/ArticlesPage/ui/ArticlesPage/ArticlesPage';
 import ArticlesDetailsPage from 'pages/ArticlesDetailsPage/ui/ArticlesDetailsPage/ArticlesDetailsPage';
 
-export type AppRouteProps =RouteProps &{
-authOnly?:boolean,
-}
+export type AppRouteProps = RouteProps & {
+  authOnly?: boolean;
+};
 
 export enum AppRoutes {
-    MAIN = 'main',
-    ABOUT = 'about',
-    PROFILE='profile',
-    ARTICLES='articles',
-    ARTICLES_DETAILS='articles_details',
+  MAIN = 'main',
+  ABOUT = 'about',
+  PROFILE = 'profile',
+  ARTICLES = 'articles',
+  ARTICLES_DETAILS = 'articles_details',
 
-    // LAST
-    NOT_FOUND = 'not_found',
-
+  // LAST
+  NOT_FOUND = 'not_found',
 }
 
 export const RoutePath: Record<AppRoutes, string> = {
     [AppRoutes.MAIN]: '/',
     [AppRoutes.ABOUT]: '/about',
-    [AppRoutes.PROFILE]: '/profile',
+    [AppRoutes.PROFILE]: '/profile/', // + id
     [AppRoutes.ARTICLES]: '/articles',
     [AppRoutes.ARTICLES_DETAILS]: '/articles/', // + :id
 
@@ -44,7 +43,7 @@ export const routeConfig: Record<AppRoutes, AppRouteProps> = {
     },
 
     [AppRoutes.PROFILE]: {
-        path: RoutePath.profile,
+        path: `${RoutePath.profile}:id`,
         element: <ProfilePage />,
         authOnly: true,
     },
