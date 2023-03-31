@@ -1,5 +1,1 @@
-in process
-
-npm start
-
-Runs the app
+This project is under development
