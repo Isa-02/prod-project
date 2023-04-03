@@ -15,7 +15,7 @@
   text-shadow: 0 0 0 var(--primary-color);
 
   &:focus {
-      outline: none;
+    outline: none;
   }
 }
 
@@ -40,14 +40,14 @@
 
 @keyframes blink {
   0% {
-      opacity: 0;
+    opacity: 0;
   }
 
   50% {
-      opacity: 0.01;
+    opacity: 0.01;
   }
 
   100% {
-      opacity: 1;
+    opacity: 1;
   }
 }

@@ -2,7 +2,10 @@ import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 
 import { Article } from 'entities/Article';
-import { ArticleBlockType, ArticleType } from 'entities/Article/model/types/article';
+import {
+    ArticleBlockType,
+    ArticleType,
+} from 'entities/Article/model/types/article';
 import { StoreDecorator } from 'shared/config/storybook/StoreDecorator/StoreDecorator';
 import ArticlesDetailsPage from './ArticlesDetailsPage';
 
@@ -14,7 +17,9 @@ export default {
     },
 } as ComponentMeta<typeof ArticlesDetailsPage>;
 
-const Template: ComponentStory<typeof ArticlesDetailsPage> = (args) => <ArticlesDetailsPage {...args} />;
+const Template: ComponentStory<typeof ArticlesDetailsPage> = (args) => (
+    <ArticlesDetailsPage {...args} />
+);
 
 const article: Article = {
     id: '1',
@@ -24,6 +29,10 @@ const article: Article = {
     views: 1022,
     createdAt: '26.02.2022',
     type: [ArticleType.IT],
+    user: {
+        id: '1',
+        username: 'Isa',
+    },
     blocks: [
         {
             id: '1',
@@ -54,8 +63,10 @@ const article: Article = {
 
 export const Normal = Template.bind({});
 Normal.args = {};
-Normal.decorators = [StoreDecorator({
-    articleDetails: {
-        data: article,
-    },
-})];
+Normal.decorators = [
+    StoreDecorator({
+        articleDetails: {
+            data: article,
+        },
+    }),
+];
