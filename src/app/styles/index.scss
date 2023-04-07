@@ -19,9 +19,9 @@
     display: flex;
 }
 .page-wrapper{
-    // flex-grow: 1;
-    // padding: 20px 20px 20px 45px;
-    // height: calc(100vh - var(--navbar-height));
-    // overflow-y: auto;
-    // flex-shrink: 100;
+    flex-grow: 1;
+    padding: 20px 20px 20px 45px;
+    height: calc(100vh - var(--navbar-height));
+    overflow-y: auto;
+    flex-shrink: 100;
 }

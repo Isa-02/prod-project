@@ -55,16 +55,3 @@ export function createReducerManager(
         },
     };
 }
-
-// const staticReducers = {
-//     users: usersReducer,
-//     posts: postsReducer,
-// };
-
-// export function configureStore(initialState) {
-//     const reducerManager = createReducerManager(staticReducers);
-
-//     const store = createStore(reducerManager.reduce, initialState);
-
-//     store.reducerManager = reducerManager;
-// }
