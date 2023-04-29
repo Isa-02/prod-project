@@ -6,22 +6,37 @@
 
 .app,
 .app_modal {
-    font: var(--font-m);
-    color: var(--primary-color);
+  font: var(--font-m);
+  color: var(--primary-color);
 }
 
 .app {
-    background: var(--bg-color);
-    min-height: 100vh;
+  background: var(--bg-color);
+  min-height: 100vh;
 }
 
 .content-page {
-    display: flex;
+  display: flex;
 }
-.page-wrapper{
-    flex-grow: 1;
-    padding: 20px 20px 20px 45px;
-    height: calc(100vh - var(--navbar-height));
-    overflow-y: auto;
-    flex-shrink: 100;
+.page-wrapper {
+  flex-grow: 1;
+  padding: 20px 20px 20px 45px;
+  height: calc(100vh - var(--navbar-height));
+  overflow-y: auto;
+  flex-shrink: 100;
+}
+
+*::-webkit-scrollbar {
+  width: 12px; /* ширина scrollbar */
+  height: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--card-bg); /* цвет дорожки */
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--inverted-primary-color); /* цвет плашки */
+  border-radius: 20px; /* закругления плашки */
+  border: 2px solid var(--primary-color); /* padding вокруг плашки */
 }
