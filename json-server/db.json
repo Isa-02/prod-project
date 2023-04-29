@@ -136,7 +136,7 @@
       "id": "4",
       "title": "Scala news",
       "subtitle": "Что нового в JS за 2022 год?",
-      "img": "https://coursefreedl.com/wp-content/uploads/2020/01/Scala-Zero-To-Hero-Complete-Guide.jpg",
+      "img": "https://infostart.ru/upload/iblock/7cd/7cd7ae5c2f228b2f5259d5edc2aa6ad3.png",
       "views": 10222,
       "createdAt": "24.01.2022",
       "userId": "1",
@@ -595,6 +595,30 @@
       "userId": "1",
       "text": "python!!!",
       "id": "p5rMadd"
+    },
+    {
+      "articleId": "18",
+      "userId": "2",
+      "text": "Statee",
+      "id": "AWStN3a"
+    },
+    {
+      "articleId": "7",
+      "userId": "1",
+      "text": "asdas",
+      "id": "5QKPOuR"
+    },
+    {
+      "articleId": "18",
+      "userId": "1",
+      "text": "sdfcs",
+      "id": "AlOJS0B"
+    },
+    {
+      "articleId": "9",
+      "userId": "1",
+      "text": "dsf",
+      "id": "putm76B"
     }
   ],
   "users": [
