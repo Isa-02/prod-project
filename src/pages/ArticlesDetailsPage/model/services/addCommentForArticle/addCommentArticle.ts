@@ -1,13 +1,8 @@
 import { createAsyncThunk } from '@reduxjs/toolkit';
-import { AxiosInstance } from 'axios';
-import { User, getUserAuthData, userActions } from 'entities/User';
-// import { USER_LOCALSTORAGE_KEY } from 'shared/const/localstorage';
+import { getUserAuthData } from 'entities/User';
 import { ThunkConfig } from 'app/providers/StoreProvider';
-import { USER_LOCALSTORAGE_KEY } from 'shared/const/localStorage';
 import { Comment } from 'entities/Comment';
 import { getArticleDetailsData } from 'entities/Article/model/selectors/articleDetails';
-import { addCommentFormActions } from 'features/AddCommentForm/model/slices/AddCommentFormSlice';
-import { getAddCommentFormText } from 'features/AddCommentForm/model/selectors/AddCommentFormSelectors';
 import { fetchCommentsByArticleId } from '../fetchCommentsByArticleId';
 
 export const addCommentForArticle = createAsyncThunk<
