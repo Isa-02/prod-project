@@ -8,6 +8,7 @@ import { useSelector } from 'react-redux';
 import { getUserAuthData } from 'entities/User';
 import { getArticleDetailsData } from 'entities/Article/model/selectors/articleDetails';
 import { getCanEditArticle } from 'pages/ArticlesDetailsPage/model/selectors/article';
+import { HStack } from 'shared/ui/Stack/HStack/HStack';
 import cls from './ArticleDetailsPageHeader.module.scss';
 
 interface ArticleDetailsPageHeaderProps {
@@ -34,7 +35,9 @@ export const ArticleDetailsPageHeader = memo(
         }, [navigate, article?.id]);
 
         return (
-            <div
+            <HStack
+                max
+                justify="between"
                 className={classNames(cls.ArticleDetailsPageHeader, {}, [className])}
             >
                 <Button theme={ButtonTheme.OUTLINE} onClick={onBackToList}>
@@ -49,7 +52,7 @@ export const ArticleDetailsPageHeader = memo(
                         {t('Редактировать')}
                     </Button>
                 )}
-            </div>
+            </HStack>
         );
     },
 );
