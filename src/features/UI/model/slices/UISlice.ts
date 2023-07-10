@@ -18,6 +18,5 @@ export const uiSlice = createSlice({
     },
 });
 
-// Action creators are generated for each case reducer function
 export const { actions: uiActions } = uiSlice;
 export const { reducer: uiReducer } = uiSlice;
